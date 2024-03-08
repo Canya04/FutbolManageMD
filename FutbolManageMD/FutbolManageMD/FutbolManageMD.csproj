@@ -68,6 +68,7 @@
     <Compile Include="Respositories\RepositoryBase.cs" />
     <Compile Include="Respositories\UsuariRepository.cs" />
     <Compile Include="ViewModels\ApuntarTorneigViewModel.cs" />
+    <Compile Include="ViewModels\ElTeuEquipViewModel.cs" />
     <Compile Include="ViewModels\EquipsViewModel.cs" />
     <Compile Include="ViewModels\GestionarTorneigViewModel.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
@@ -78,6 +79,9 @@
     <Compile Include="ViewModels\ViewModelCommand.cs" />
     <Compile Include="View\ApuntarTorneigView.xaml.cs">
       <DependentUpon>ApuntarTorneigView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ElTeuEquipView.xaml.cs">
+      <DependentUpon>ElTeuEquipView.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\EquipsView.xaml.cs">
       <DependentUpon>EquipsView.xaml</DependentUpon>
@@ -107,6 +111,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\ApuntarTorneigView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ElTeuEquipView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

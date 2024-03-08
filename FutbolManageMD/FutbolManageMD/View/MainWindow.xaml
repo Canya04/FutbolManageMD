@@ -31,6 +31,10 @@
             <local:TornejosFinalitzatsView/>
         </DataTemplate>
 
+        <DataTemplate DataType="{x:Type viewModel:GestionarTorneigViewModel}">
+            <local:GestionarTorneigView/>
+        </DataTemplate>
+
         <DataTemplate DataType="{x:Type viewModel:EquipsViewModel}">
             <local:EquipsView/>
         </DataTemplate>
@@ -229,9 +233,19 @@
 
                             <Button Style="{StaticResource botoCapcalera}"
                                     Tag="{StaticResource color11}">
-                                <fa:IconImage Icon="DoorOpen" 
-                                              Height="25" Width="25"
-                                              Style="{StaticResource botoCapcaleraIcon}"/>
+                                <fa:IconImage Icon="SignOutAlt" 
+                                              Height="20" Width="20"
+                                              RenderTransformOrigin="0.5,0.5"
+                                              Style="{StaticResource botoCapcaleraIcon}">
+                                    <fa:IconImage.RenderTransform>
+                                        <TransformGroup>
+                                            <ScaleTransform/>
+                                            <SkewTransform/>
+                                            <RotateTransform Angle="-180.237"/>
+                                            <TranslateTransform/>
+                                        </TransformGroup>
+                                    </fa:IconImage.RenderTransform>
+                                </fa:IconImage>
                             </Button>
 
                             <TextBlock Text="{Binding UsuariActual.MostrarNom}"
@@ -250,12 +264,12 @@
 
                             <Button Style="{StaticResource botoCapcalera}"
                                     Tag="{StaticResource color3}">
-                                <fa:IconImage Icon="Clock" Style="{StaticResource botoCapcaleraIcon}"/>
+                                <fa:IconImage Icon="Shirt" Style="{StaticResource botoCapcaleraIcon}"/>
                             </Button>
 
                             <Button Style="{StaticResource botoCapcalera}"
                                     Tag="{StaticResource color4}">
-                                <fa:IconImage Icon="Envelope" Style="{StaticResource botoCapcaleraIcon}"/>
+                                <fa:IconImage Icon="Trophy" Style="{StaticResource botoCapcaleraIcon}"/>
                             </Button>
 
                             <Button Style="{StaticResource botoCapcalera}"

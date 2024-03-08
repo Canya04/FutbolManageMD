@@ -107,7 +107,7 @@ namespace FutbolManageMD.ViewModels
         private void ExecutarMostrarApuntarTorneigViewCommand(object obj)
         {
             VistaFillaActual = new ApuntarTorneigViewModel();
-            Titol = "Apuntar Torneig";
+            Titol = "Apuntar-se a Torneig";
             Icon = IconChar.Pencil;
         }
 
@@ -130,7 +130,7 @@ namespace FutbolManageMD.ViewModels
         //Mostrar GestionarTroneigView
         private void ExecutarMostrarGestionarTorneigViewCommand(object obj)
         {
-            VistaFillaActual = new TornejosFinalitzatsViewModel();
+            VistaFillaActual = new GestionarTorneigViewModel();
             Titol = "Gestionar Torneig";
             Icon = IconChar.Trophy;
         }
@@ -142,13 +142,6 @@ namespace FutbolManageMD.ViewModels
             Titol = "Equips";
             Icon = IconChar.Shirt;
         }
-
-
-
-
-
-
-
         private void CarregarInformacioUsuariActual()
         {
             var usuari = usuariRepository.GetByUsuari(Thread.CurrentPrincipal.Identity.Name);
