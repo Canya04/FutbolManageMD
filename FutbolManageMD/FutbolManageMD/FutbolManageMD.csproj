@@ -71,8 +71,10 @@
     <Compile Include="ViewModels\ElTeuEquipViewModel.cs" />
     <Compile Include="ViewModels\EquipsViewModel.cs" />
     <Compile Include="ViewModels\GestionarTorneigViewModel.cs" />
+    <Compile Include="ViewModels\JugadorsViewModel.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="ViewModels\SolicitudsEquipViewModel.cs" />
     <Compile Include="ViewModels\TornejosActiusViewModel.cs" />
     <Compile Include="ViewModels\TornejosFinalitzatsViewModel.cs" />
     <Compile Include="ViewModels\VeureEquipsViewModel.cs" />
@@ -90,8 +92,14 @@
     <Compile Include="View\GestionarTorneigView.xaml.cs">
       <DependentUpon>GestionarTorneigView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\JugadorsView.xaml.cs">
+      <DependentUpon>JugadorsView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\LoginView.xaml.cs">
       <DependentUpon>LoginView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SolicitudsEquipView.xaml.cs">
+      <DependentUpon>SolicitudsEquipView.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\TornejosActiusView.xaml.cs">
       <DependentUpon>TornejosActiusView.xaml</DependentUpon>
@@ -130,6 +138,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\JugadorsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -143,6 +155,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="View\LoginView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\SolicitudsEquipView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
