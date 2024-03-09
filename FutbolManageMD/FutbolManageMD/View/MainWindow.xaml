@@ -263,7 +263,8 @@
                             </Ellipse>
 
                             <Button Style="{StaticResource botoCapcalera}"
-                                    Tag="{StaticResource color3}">
+                                    Tag="{StaticResource color3}"
+                                    Command="{Binding MostrarEquipsViewCommand}">
                                 <fa:IconImage Icon="Shirt" Style="{StaticResource botoCapcaleraIcon}"/>
                             </Button>
 

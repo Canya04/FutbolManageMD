@@ -75,6 +75,7 @@
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\TornejosActiusViewModel.cs" />
     <Compile Include="ViewModels\TornejosFinalitzatsViewModel.cs" />
+    <Compile Include="ViewModels\VeureEquipsViewModel.cs" />
     <Compile Include="ViewModels\ViewModelBase.cs" />
     <Compile Include="ViewModels\ViewModelCommand.cs" />
     <Compile Include="View\ApuntarTorneigView.xaml.cs">
@@ -97,6 +98,9 @@
     </Compile>
     <Compile Include="View\TornejosFinalitzatsView.xaml.cs">
       <DependentUpon>TornejosFinalitzatsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\VeureEquipsView.xaml.cs">
+      <DependentUpon>VeureEquipsView.xaml</DependentUpon>
     </Compile>
     <Page Include="CustomControls\BindablePasswordBox.xaml">
       <SubType>Designer</SubType>
@@ -147,6 +151,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\TornejosFinalitzatsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\VeureEquipsView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
