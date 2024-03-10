@@ -62,7 +62,7 @@
                                  IsChecked="False"
                                  Command="{Binding MostrarGestionarTorneigClassificacioViewCommand}">
                 <StackPanel Orientation="Horizontal">
-                    <fa:IconImage Icon="Person"  Style="{StaticResource menuBotoIcon}"></fa:IconImage>
+                    <fa:IconImage Icon="Medal"  Style="{StaticResource menuBotoIcon}"></fa:IconImage>
                     <TextBlock Text="Classificació" Style="{StaticResource menuBotoText}"/>
                 </StackPanel>
             </RadioButton>
