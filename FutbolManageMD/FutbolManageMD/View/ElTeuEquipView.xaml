@@ -5,6 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:FutbolManageMD.View"
              xmlns:viewModel="clr-namespace:FutbolManageMD.ViewModels"
+             xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
 
@@ -33,74 +34,25 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Button Grid.Column="0"
-                    Command="{Binding MostrarJugadorsViewCommand}"                            
-                    Content="Jugadors"                            
-                    FontSize="12"
-                    FontFamily="Montserrat"
-                    Cursor="Hand"
-                    BorderThickness="0"
-                    Foreground="White"
-                    VerticalAlignment="Top">
+            <RadioButton Grid.Column="0" Style="{StaticResource botoMenu}"
+                                 Tag="{StaticResource color10}"
+                                 IsChecked="True"
+                                 Command="{Binding MostrarJugadorsViewCommand}">
+                <StackPanel Orientation="Horizontal">
+                    <fa:IconImage Icon="Person"  Style="{StaticResource menuBotoIcon}"></fa:IconImage>
+                    <TextBlock Text="Jugadors" Style="{StaticResource menuBotoText}"/>
+                </StackPanel>
+            </RadioButton>
 
-                <Button.Style>
-                    <Style TargetType="Button">
-                        <Setter Property="Background" Value="Transparent"/>
-                        <Setter Property="Template">
-                            <Setter.Value>
-                                <ControlTemplate TargetType="Button">
-                                    <Border Height="30"
-                                            CornerRadius="15"
-                                            Background="{TemplateBinding Background}">
-                                        <ContentPresenter VerticalAlignment="Center"
-                                                          HorizontalAlignment="Center"/>
-                                    </Border>
-                                </ControlTemplate>
-                            </Setter.Value>
-                        </Setter>
-                        <Style.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#836EFB"/>
-                            </Trigger>
-                        </Style.Triggers>
-                    </Style>
-                </Button.Style>
-
-            </Button>
-            <Button Grid.Column="1"
-                    Command="{Binding MostrarSolicitudEquipViewCommand}"                            
-                    Content="Solicituds"                            
-                    FontSize="12"
-                    FontFamily="Montserrat"
-                    Cursor="Hand"
-                    BorderThickness="0"
-                    Foreground="White"
-                    VerticalAlignment="Top">
-
-                <Button.Style>
-                    <Style TargetType="Button">
-                        <Setter Property="Background" Value="Transparent"/>
-                        <Setter Property="Template">
-                            <Setter.Value>
-                                <ControlTemplate TargetType="Button">
-                                    <Border Height="30"
-                                            CornerRadius="15"
-                                            Background="{TemplateBinding Background}">
-                                        <ContentPresenter VerticalAlignment="Center"
-                                                          HorizontalAlignment="Center"/>
-                                    </Border>
-                                </ControlTemplate>
-                            </Setter.Value>
-                        </Setter>
-                        <Style.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#836EFB"/>
-                            </Trigger>
-                        </Style.Triggers>
-                    </Style>
-                </Button.Style>
-
-            </Button>
+            <RadioButton Grid.Column="1" Style="{StaticResource botoMenu}"
+                                 Tag="{StaticResource color10}"
+                                 IsChecked="False"
+                                 Command="{Binding MostrarSolicitudEquipViewCommand}">
+                <StackPanel Orientation="Horizontal">
+                    <fa:IconImage Icon="Message"  Style="{StaticResource menuBotoIcon}"></fa:IconImage>
+                    <TextBlock Text="Solicituds" Style="{StaticResource menuBotoText}"/>
+                </StackPanel>
+            </RadioButton>
         </Grid>
 
         <!--Contingut de la Secció-->

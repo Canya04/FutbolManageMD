@@ -4,10 +4,30 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:FutbolManageMD.View"
+             xmlns:viewModel="clr-namespace:FutbolManageMD.ViewModels"
              xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    
+
+    <UserControl.Resources>
+
+        <!-- DataTemplate per GestionarTorneigPartitsViewModel -->
+        <DataTemplate DataType="{x:Type viewModel:GestionarTorneigPartitsViewModel}">
+            <local:GestionarTorneigPartitsView/>
+        </DataTemplate>
+
+        <!-- DataTemplate per GestionarTorneigClassificacioViewModel -->
+        <DataTemplate DataType="{x:Type viewModel:GestionarTorneigClassificacioViewModel}">
+            <local:GestionarTorneigClassificacioView/>
+        </DataTemplate>
+
+        <!-- DataTemplate per GestionarTorneigEquipsViewModel -->
+        <DataTemplate DataType="{x:Type viewModel:GestionarTorneigEquipsViewModel}">
+            <local:GestionarTorneigEquipsView/>
+        </DataTemplate>
+
+    </UserControl.Resources>
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
@@ -17,6 +37,8 @@
         <Grid Grid.Row="0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="120"/>
             </Grid.ColumnDefinitions>
 
@@ -24,8 +46,38 @@
                 VerticalAlignment="Top"
                 Grid.Column="0">
             </StackPanel>
-            
-            <Button Grid.Column="1"
+
+            <RadioButton Grid.Column="0" Style="{StaticResource botoMenu}"
+                                 Tag="{StaticResource color2}"
+                                 IsChecked="True"
+                                 Command="{Binding MostrarGestionarTorneigPartitsViewCommand}">
+                <StackPanel Orientation="Horizontal">
+                    <fa:IconImage Icon="Futbol"  Style="{StaticResource menuBotoIcon}"></fa:IconImage>
+                    <TextBlock Text="Partits" Style="{StaticResource menuBotoText}"/>
+                </StackPanel>
+            </RadioButton>
+
+            <RadioButton Grid.Column="1" Style="{StaticResource botoMenu}"
+                                 Tag="{StaticResource color2}"
+                                 IsChecked="False"
+                                 Command="{Binding MostrarGestionarTorneigClassificacioViewCommand}">
+                <StackPanel Orientation="Horizontal">
+                    <fa:IconImage Icon="Person"  Style="{StaticResource menuBotoIcon}"></fa:IconImage>
+                    <TextBlock Text="Classificació" Style="{StaticResource menuBotoText}"/>
+                </StackPanel>
+            </RadioButton>
+
+            <RadioButton Grid.Column="2" Style="{StaticResource botoMenu}"
+                                 Tag="{StaticResource color2}"
+                                 IsChecked="False"
+                                 Command="{Binding MostrarGestionarTorneigEquipsViewCommand}">
+                <StackPanel Orientation="Horizontal">
+                    <fa:IconImage Icon="Shirt"  Style="{StaticResource menuBotoIcon}"></fa:IconImage>
+                    <TextBlock Text="Equips" Style="{StaticResource menuBotoText}"/>
+                </StackPanel>
+            </RadioButton>
+
+            <Button Grid.Column="3"
                     Command=""                            
                     Content="Finalitzar Torneig"                            
                     FontSize="12"
@@ -58,13 +110,11 @@
                 </Button.Style>
             </Button>
         </Grid>
-        
-        <Border Grid.Row="1"
-                Background="#200F53"
-                CornerRadius="10" 
-                Padding="10">
-            
-        </Border>
-        
+
+        <!--Contingut de la Secció-->
+        <ContentControl Content="{Binding VistaFillaActual}"
+                        Grid.Row="1"
+                        Margin="0"/>
+
     </Grid>
 </UserControl>

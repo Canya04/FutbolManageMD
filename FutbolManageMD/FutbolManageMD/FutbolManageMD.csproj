@@ -70,6 +70,9 @@
     <Compile Include="ViewModels\ApuntarTorneigViewModel.cs" />
     <Compile Include="ViewModels\ElTeuEquipViewModel.cs" />
     <Compile Include="ViewModels\EquipsViewModel.cs" />
+    <Compile Include="ViewModels\GestionarTorneigClassificacioViewModel.cs" />
+    <Compile Include="ViewModels\GestionarTorneigEquipsViewModel.cs" />
+    <Compile Include="ViewModels\GestionarTorneigPartitsViewModel.cs" />
     <Compile Include="ViewModels\GestionarTorneigViewModel.cs" />
     <Compile Include="ViewModels\JugadorsViewModel.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
@@ -88,6 +91,15 @@
     </Compile>
     <Compile Include="View\EquipsView.xaml.cs">
       <DependentUpon>EquipsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\GestionarTorneigClassificacioView.xaml.cs">
+      <DependentUpon>GestionarTorneigClassificacioView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\GestionarTorneigEquipsView.xaml.cs">
+      <DependentUpon>GestionarTorneigEquipsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\GestionarTorneigPartitsView.xaml.cs">
+      <DependentUpon>GestionarTorneigPartitsView.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\GestionarTorneigView.xaml.cs">
       <DependentUpon>GestionarTorneigView.xaml</DependentUpon>
@@ -131,6 +143,18 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\EquipsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\GestionarTorneigClassificacioView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\GestionarTorneigEquipsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\GestionarTorneigPartitsView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

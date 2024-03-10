@@ -69,10 +69,5 @@ namespace FutbolManageMD
         {
             this.WindowState = WindowState.Minimized;
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }

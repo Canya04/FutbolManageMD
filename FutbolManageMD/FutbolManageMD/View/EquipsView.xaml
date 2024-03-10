@@ -35,74 +35,26 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Button Grid.Column="0"
-                    Command="{Binding MostrarVeureEquipsViewCommand}"                            
-                    Content="Buscar Equips"                            
-                    FontSize="12"
-                    FontFamily="Montserrat"
-                    Cursor="Hand"
-                    BorderThickness="0"
-                    Foreground="White"
-                    VerticalAlignment="Top">
 
-                <Button.Style>
-                    <Style TargetType="Button">
-                        <Setter Property="Background" Value="Transparent"/>
-                        <Setter Property="Template">
-                            <Setter.Value>
-                                <ControlTemplate TargetType="Button">
-                                    <Border Height="30"
-                                            CornerRadius="15"
-                                            Background="{TemplateBinding Background}">
-                                        <ContentPresenter VerticalAlignment="Center"
-                                                          HorizontalAlignment="Center"/>
-                                    </Border>
-                                </ControlTemplate>
-                            </Setter.Value>
-                        </Setter>
-                        <Style.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#836EFB"/>
-                            </Trigger>
-                        </Style.Triggers>
-                    </Style>
-                </Button.Style>
+            <RadioButton Grid.Column="0" Style="{StaticResource botoMenu}"
+                                 Tag="{StaticResource color1}"
+                                 IsChecked="True"
+                                 Command="{Binding MostrarVeureEquipsViewCommand}">
+                <StackPanel Orientation="Horizontal">
+                    <fa:IconImage Icon="Search"  Style="{StaticResource menuBotoIcon}"></fa:IconImage>
+                    <TextBlock Text="Veure Equips" Style="{StaticResource menuBotoText}"/>
+                </StackPanel>
+            </RadioButton>
 
-            </Button>
-            <Button Grid.Column="1"
-                    Command="{Binding MostrarElTeuEquipViewCommand}"                            
-                    Content="El Teu Equip"                            
-                    FontSize="12"
-                    FontFamily="Montserrat"
-                    Cursor="Hand"
-                    BorderThickness="0"
-                    Foreground="White"
-                    VerticalAlignment="Top">
-                
-                <Button.Style>
-                    <Style TargetType="Button">
-                        <Setter Property="Background" Value="Transparent"/>
-                        <Setter Property="Template">
-                            <Setter.Value>
-                                <ControlTemplate TargetType="Button">
-                                    <Border Height="30"
-                                            CornerRadius="15"
-                                            Background="{TemplateBinding Background}">
-                                        <ContentPresenter VerticalAlignment="Center"
-                                                          HorizontalAlignment="Center"/>
-                                    </Border>
-                                </ControlTemplate>
-                            </Setter.Value>
-                        </Setter>
-                        <Style.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#836EFB"/>
-                            </Trigger>
-                        </Style.Triggers>
-                    </Style>
-                </Button.Style>
-                
-            </Button>
+            <RadioButton Grid.Column="1" Style="{StaticResource botoMenu}"
+                                 Tag="{StaticResource color1}"
+                                 IsChecked="False"
+                                 Command="{Binding MostrarElTeuEquipViewCommand}">
+                <StackPanel Orientation="Horizontal">
+                    <fa:IconImage Icon="Shirt"  Style="{StaticResource menuBotoIcon}"></fa:IconImage>
+                    <TextBlock Text="El Teu Equip" Style="{StaticResource menuBotoText}"/>
+                </StackPanel>
+            </RadioButton>
         </Grid>
 
         <!--Contingut de la Secció-->
