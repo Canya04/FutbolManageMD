@@ -71,6 +71,7 @@
     <Compile Include="ViewModels\ElTeuEquipViewModel.cs" />
     <Compile Include="ViewModels\EquipsViewModel.cs" />
     <Compile Include="ViewModels\GestionarTorneigClassificacioViewModel.cs" />
+    <Compile Include="ViewModels\GestionarTorneigEquipsInscritsViewModel.cs" />
     <Compile Include="ViewModels\GestionarTorneigEquipsViewModel.cs" />
     <Compile Include="ViewModels\GestionarTorneigPartitsViewModel.cs" />
     <Compile Include="ViewModels\GestionarTorneigViewModel.cs" />
@@ -94,6 +95,9 @@
     </Compile>
     <Compile Include="View\GestionarTorneigClassificacioView.xaml.cs">
       <DependentUpon>GestionarTorneigClassificacioView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\GestionarTorneigEquipsInscritsView.xaml.cs">
+      <DependentUpon>GestionarTorneigEquipsInscritsView.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\GestionarTorneigEquipsView.xaml.cs">
       <DependentUpon>GestionarTorneigEquipsView.xaml</DependentUpon>
@@ -147,6 +151,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\GestionarTorneigClassificacioView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\GestionarTorneigEquipsInscritsView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
