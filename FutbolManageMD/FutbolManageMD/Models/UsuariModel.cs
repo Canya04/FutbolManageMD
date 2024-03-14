@@ -9,11 +9,11 @@ namespace FutbolManageMD.Models
     public class UsuariModel
     {
         public int Id { get; set; }
-        public string Usuari { get; set; }
-        public string Contrassenya { get; set; }
-        public string Nom { get; set; }
-        public string Cognom { get; set; }
-        public string Correu { get; set; }
-        public string Genere { get; set; }
+        public string Nom_Jugador { get; set; }
+        public string Cognoms_Jugador { get; set; }
+        public string Correu_Jugador { get; set; }
+        public string Contrasenya_Jugador { get; set; }
+        public string Sexe_Jugador { get; set; }
+        public string Id_equip { get; set; }
     }
 }

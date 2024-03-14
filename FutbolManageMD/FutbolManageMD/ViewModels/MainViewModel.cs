@@ -147,9 +147,8 @@ namespace FutbolManageMD.ViewModels
             var usuari = usuariRepository.GetByUsuari(Thread.CurrentPrincipal.Identity.Name);
             if (usuari != null) 
             {
-                UsuariActual.Usuari = usuari.Usuari;
-                UsuariActual.MostrarNom = $"{usuari.Nom} {usuari.Cognom}";
-                UsuariActual.FotoPerfil = null;                
+                UsuariActual.Usuari = usuari.Nom_Jugador;
+                UsuariActual.MostrarNom = $"{usuari.Nom_Jugador} {usuari.Cognoms_Jugador}";              
             }
             else 
             {

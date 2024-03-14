@@ -117,3 +117,17 @@ C:\Users\Isabel\Dropbox\Mi PC (LAPTOP-VLEVBB4B)\Desktop\2n DAM\M13 - Projecte\Pr
 C:\Users\Isabel\Dropbox\Mi PC (LAPTOP-VLEVBB4B)\Desktop\2n DAM\M13 - Projecte\Projecte Final\FutbolManageMD\FutbolManageMD\FutbolManageMD\obj\Debug\View\GestionarTorneigClassificacioView.baml
 C:\Users\Isabel\Dropbox\Mi PC (LAPTOP-VLEVBB4B)\Desktop\2n DAM\M13 - Projecte\Projecte Final\FutbolManageMD\FutbolManageMD\FutbolManageMD\obj\Debug\View\GestionarTorneigEquipsView.baml
 C:\Users\Isabel\Dropbox\Mi PC (LAPTOP-VLEVBB4B)\Desktop\2n DAM\M13 - Projecte\Projecte Final\FutbolManageMD\FutbolManageMD\FutbolManageMD\obj\Debug\View\GestionarTorneigPartitsView.baml
+C:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\obj\Debug\View\ElTeuEquipView.g.cs
+C:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\obj\Debug\View\GestionarTorneigClassificacioView.g.cs
+C:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\obj\Debug\View\GestionarTorneigEquipsView.g.cs
+C:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\obj\Debug\View\GestionarTorneigPartitsView.g.cs
+C:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\obj\Debug\View\JugadorsView.g.cs
+C:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\obj\Debug\View\SolicitudsEquipView.g.cs
+C:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\obj\Debug\View\VeureEquipsView.g.cs
+C:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\obj\Debug\View\ElTeuEquipView.baml
+C:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\obj\Debug\View\GestionarTorneigClassificacioView.baml
+C:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\obj\Debug\View\GestionarTorneigEquipsView.baml
+C:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\obj\Debug\View\GestionarTorneigPartitsView.baml
+C:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\obj\Debug\View\JugadorsView.baml
+C:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\obj\Debug\View\SolicitudsEquipView.baml
+C:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\obj\Debug\View\VeureEquipsView.baml

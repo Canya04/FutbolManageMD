@@ -25,9 +25,9 @@ namespace FutbolManageMD.Respositories
             {
                 connexio.Open();
                 command.Connection = connexio;
-                command.CommandText = "select * from [Usuari] where Usuari_Usuari = @usuari and [Contrassenya_Usuari] = @contrassenya";
-                command.Parameters.Add("@usuari", SqlDbType.NVarChar).Value=credential.UserName;
-                command.Parameters.Add("@contrassenya", SqlDbType.NVarChar).Value=credential.Password;
+                command.CommandText = "select * from [Jugador] where Nom_Jugador = @jugador and [Contrasenya_Jugador] = @contrasenya";
+                command.Parameters.Add("@jugador", SqlDbType.NVarChar).Value=credential.UserName;
+                command.Parameters.Add("@contrasenya", SqlDbType.NVarChar).Value=credential.Password;
                 usuariValid = command.ExecuteScalar() == null? false : true;
             }
             return usuariValid;
@@ -56,8 +56,8 @@ namespace FutbolManageMD.Respositories
             {
                 connexio.Open();
                 command.Connection = connexio;
-                command.CommandText = "select * from [Usuari] where Usuari_Usuari = @usuari";
-                command.Parameters.Add("@usuari", SqlDbType.NVarChar).Value = usuari;
+                command.CommandText = "select * from [Jugador] where Nom_Jugador = @jugador";
+                command.Parameters.Add("@jugador", SqlDbType.NVarChar).Value = usuari;
                 using (var reader = command.ExecuteReader())
                 {
                     if (reader.Read())
@@ -65,11 +65,12 @@ namespace FutbolManageMD.Respositories
                         user = new UsuariModel()
                         {
                             Id = (int)reader[0],
-                            Usuari = reader[1].ToString(),
-                            Contrassenya = string.Empty,
-                            Nom = reader[3].ToString(),
-                            Cognom = reader[4].ToString(),
-                            Correu = reader[5].ToString(),
+                            Nom_Jugador = reader[1].ToString(),
+                            Cognoms_Jugador = reader[2].ToString(),
+                            Correu_Jugador = reader[3].ToString(),
+                            Contrasenya_Jugador = string.Empty,
+                            Sexe_Jugador = reader[5].ToString(),
+                            Id_equip = reader[6].ToString(),    
                         };
                     }
                 }

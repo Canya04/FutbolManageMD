@@ -10,6 +10,5 @@ namespace FutbolManageMD.Models
     {
         public string Usuari { get; set; }
         public string MostrarNom { get; set; }
-        public byte[] FotoPerfil { get; set; }
     }
 }
