@@ -25,7 +25,7 @@ namespace FutbolManageMD.Respositories
             {
                 connexio.Open();
                 command.Connection = connexio;
-                command.CommandText = "select * from [Jugador] where Nom_Jugador = @jugador and [Contrasenya_Jugador] = @contrasenya";
+                command.CommandText = "select * from [Jugador] where Correu_Jugador = @jugador and [Contrasenya_Jugador] = @contrasenya";
                 command.Parameters.Add("@jugador", SqlDbType.NVarChar).Value=credential.UserName;
                 command.Parameters.Add("@contrasenya", SqlDbType.NVarChar).Value=credential.Password;
                 usuariValid = command.ExecuteScalar() == null? false : true;
@@ -56,7 +56,7 @@ namespace FutbolManageMD.Respositories
             {
                 connexio.Open();
                 command.Connection = connexio;
-                command.CommandText = "select * from [Jugador] where Nom_Jugador = @jugador";
+                command.CommandText = "select * from [Jugador] where Correu_Jugador = @jugador";
                 command.Parameters.Add("@jugador", SqlDbType.NVarChar).Value = usuari;
                 using (var reader = command.ExecuteReader())
                 {
