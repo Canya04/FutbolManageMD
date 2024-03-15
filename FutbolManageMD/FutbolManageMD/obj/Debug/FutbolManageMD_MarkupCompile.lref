@@ -1,18 +1,18 @@
 ﻿
-FC:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\App.xaml;;
-FC:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\CustomControls\BindablePasswordBox.xaml;;
-FC:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\ApuntarTorneigView.xaml;;
-FC:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\ElTeuEquipView.xaml;;
-FC:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\EquipsView.xaml;;
-FC:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\GestionarTorneigClassificacioView.xaml;;
-FC:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\GestionarTorneigEquipsView.xaml;;
-FC:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\GestionarTorneigPartitsView.xaml;;
-FC:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\GestionarTorneigView.xaml;;
-FC:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\JugadorsView.xaml;;
-FC:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\MainWindow.xaml;;
-FC:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\LoginView.xaml;;
-FC:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\SolicitudsEquipView.xaml;;
-FC:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\TornejosActiusView.xaml;;
-FC:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\TornejosFinalitzatsView.xaml;;
-FC:\Users\Dídac\Dropbox\Mi PC (DESKTOP-GOCDHRN)\Desktop\FutbolManageMD_Marc\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\VeureEquipsView.xaml;;
+FC:\Users\Isabel\Dropbox\Mi PC (LAPTOP-VLEVBB4B)\Desktop\2n DAM\M13 - Projecte\Projecte Final\FutbolManageMD\FutbolManageMD\FutbolManageMD\App.xaml;;
+FC:\Users\Isabel\Dropbox\Mi PC (LAPTOP-VLEVBB4B)\Desktop\2n DAM\M13 - Projecte\Projecte Final\FutbolManageMD\FutbolManageMD\FutbolManageMD\CustomControls\BindablePasswordBox.xaml;;
+FC:\Users\Isabel\Dropbox\Mi PC (LAPTOP-VLEVBB4B)\Desktop\2n DAM\M13 - Projecte\Projecte Final\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\ApuntarTorneigView.xaml;;
+FC:\Users\Isabel\Dropbox\Mi PC (LAPTOP-VLEVBB4B)\Desktop\2n DAM\M13 - Projecte\Projecte Final\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\ElTeuEquipView.xaml;;
+FC:\Users\Isabel\Dropbox\Mi PC (LAPTOP-VLEVBB4B)\Desktop\2n DAM\M13 - Projecte\Projecte Final\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\EquipsView.xaml;;
+FC:\Users\Isabel\Dropbox\Mi PC (LAPTOP-VLEVBB4B)\Desktop\2n DAM\M13 - Projecte\Projecte Final\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\GestionarTorneigClassificacioView.xaml;;
+FC:\Users\Isabel\Dropbox\Mi PC (LAPTOP-VLEVBB4B)\Desktop\2n DAM\M13 - Projecte\Projecte Final\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\GestionarTorneigEquipsView.xaml;;
+FC:\Users\Isabel\Dropbox\Mi PC (LAPTOP-VLEVBB4B)\Desktop\2n DAM\M13 - Projecte\Projecte Final\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\GestionarTorneigPartitsView.xaml;;
+FC:\Users\Isabel\Dropbox\Mi PC (LAPTOP-VLEVBB4B)\Desktop\2n DAM\M13 - Projecte\Projecte Final\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\GestionarTorneigView.xaml;;
+FC:\Users\Isabel\Dropbox\Mi PC (LAPTOP-VLEVBB4B)\Desktop\2n DAM\M13 - Projecte\Projecte Final\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\JugadorsView.xaml;;
+FC:\Users\Isabel\Dropbox\Mi PC (LAPTOP-VLEVBB4B)\Desktop\2n DAM\M13 - Projecte\Projecte Final\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\MainWindow.xaml;;
+FC:\Users\Isabel\Dropbox\Mi PC (LAPTOP-VLEVBB4B)\Desktop\2n DAM\M13 - Projecte\Projecte Final\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\LoginView.xaml;;
+FC:\Users\Isabel\Dropbox\Mi PC (LAPTOP-VLEVBB4B)\Desktop\2n DAM\M13 - Projecte\Projecte Final\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\SolicitudsEquipView.xaml;;
+FC:\Users\Isabel\Dropbox\Mi PC (LAPTOP-VLEVBB4B)\Desktop\2n DAM\M13 - Projecte\Projecte Final\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\TornejosActiusView.xaml;;
+FC:\Users\Isabel\Dropbox\Mi PC (LAPTOP-VLEVBB4B)\Desktop\2n DAM\M13 - Projecte\Projecte Final\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\TornejosFinalitzatsView.xaml;;
+FC:\Users\Isabel\Dropbox\Mi PC (LAPTOP-VLEVBB4B)\Desktop\2n DAM\M13 - Projecte\Projecte Final\FutbolManageMD\FutbolManageMD\FutbolManageMD\View\VeureEquipsView.xaml;;
 
