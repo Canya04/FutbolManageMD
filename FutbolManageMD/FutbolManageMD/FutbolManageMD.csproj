@@ -71,7 +71,11 @@
     <Compile Include="ViewModels\ElTeuEquipViewModel.cs" />
     <Compile Include="ViewModels\EquipsViewModel.cs" />
     <Compile Include="ViewModels\GestionarTorneigClassificacioViewModel.cs" />
+<<<<<<< HEAD
     <Compile Include="ViewModels\GestionarTorneigEquipsSolicitudsViewModel.cs" />
+=======
+    <Compile Include="ViewModels\GestionarTorneigEquipsInscritsViewModel.cs" />
+>>>>>>> bed4a83f3703b3d9b883a68c5ea1fc918e92ef89
     <Compile Include="ViewModels\GestionarTorneigEquipsViewModel.cs" />
     <Compile Include="ViewModels\GestionarTorneigPartitsViewModel.cs" />
     <Compile Include="ViewModels\GestionarTorneigViewModel.cs" />
@@ -96,8 +100,13 @@
     <Compile Include="View\GestionarTorneigClassificacioView.xaml.cs">
       <DependentUpon>GestionarTorneigClassificacioView.xaml</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="View\GestionarTorneigEquipsSolicitudsView.xaml.cs">
       <DependentUpon>GestionarTorneigEquipsSolicitudsView.xaml</DependentUpon>
+=======
+    <Compile Include="View\GestionarTorneigEquipsInscritsView.xaml.cs">
+      <DependentUpon>GestionarTorneigEquipsInscritsView.xaml</DependentUpon>
+>>>>>>> bed4a83f3703b3d9b883a68c5ea1fc918e92ef89
     </Compile>
     <Compile Include="View\GestionarTorneigEquipsView.xaml.cs">
       <DependentUpon>GestionarTorneigEquipsView.xaml</DependentUpon>
@@ -154,7 +163,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+<<<<<<< HEAD
     <Page Include="View\GestionarTorneigEquipsSolicitudsView.xaml">
+=======
+    <Page Include="View\GestionarTorneigEquipsInscritsView.xaml">
+>>>>>>> bed4a83f3703b3d9b883a68c5ea1fc918e92ef89
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
